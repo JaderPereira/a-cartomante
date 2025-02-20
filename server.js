@@ -14,6 +14,6 @@ app.set('view engine', 'ejs')
 app.use(routes)
 
 app.listen(PORT, () => {
-    console.log('acessar: http://localhost:3000')
-    console.log('Servidor executando na porta 3000')
+    console.log(`acessar: http://localhost:${PORT}`)
+    console.log(`Servidor executando na porta ${PORT}`)
 })
