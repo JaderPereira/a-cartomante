@@ -2,6 +2,7 @@ const express = require('express')   //pegando o express q eu baixei
 const app = express()                //variavel q vai portar o express
 const routes = require('./routes')
 const path = require('path')
+const PORT = process.env.PORT || 3000
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.resolve(__dirname, 'public')))
@@ -12,7 +13,7 @@ app.set('view engine', 'ejs')
 
 app.use(routes)
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('acessar: http://localhost:3000')
     console.log('Servidor executando na porta 3000')
 })
