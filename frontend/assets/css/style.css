@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(72, 107, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+section {
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+h1{
+    line-height: 55px;
+    font-size: 2em;
+    margin: 20px;
+}
+p {
+    margin: 20px 10px;
+}
+.relogio {
+    font-size: 3em;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+}
