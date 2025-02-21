@@ -8,7 +8,7 @@
     "start": "nodemon server.js --ignore public --ignore frontend",
     "open": "node server.js",
     "dev": "webpack -w",
-    "build": "webpack --mode production"
+    "biuld": "webpack --mode production"
   },
   "author": "jader Pereira",
   "license": "ISC",
