@@ -54,6 +54,17 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./frontend/assets/img/img-capa.jpg":
+/*!******************************************!*\
+  !*** ./frontend/assets/img/img-capa.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "dff710dfc319e18cb289.jpg";
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/a-callable.js":
 /*!******************************************************!*\
   !*** ./node_modules/core-js/internals/a-callable.js ***!
@@ -22956,10 +22967,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/img-capa.jpg */ "./frontend/assets/img/img-capa.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `@charset "UTF-8";
 *{
@@ -22967,38 +22983,89 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@charset "UTF-8";
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(72, 107, 138);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+:root {
+    --forte: #67127C;
+    --fraca: #DFA400;
+    --branco: #fff;
+    --preto: #000; 
+}
+
+body {
+    background-color: #220529;
     height: 100vh;
     overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-::-webkit-scrollbar {
-    display: none;
+@media screen and (orientation:landscape) {
+
+    section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        & .logo {
+            font-size: 3.5em;
+            margin: 20px 0;
+            
+        }
+        & .data {
+            font-weight: bold;
+        }
+        & .btn-ver {
+            background-color: #3d0a49;
+            color: var(--branco);
+            font-size: 2em;
+            font-weight: bold;
+            padding: 30px 80px;
+            border: none;
+            border-radius: 2px;
+            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                background-color: var(--fraca);
+                color: #000;
+            }
+        }
+    }
+
+    .img-capa {
+        background: linear-gradient(to right, #220529 3%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+        background-size: cover;
+        background-position: center;
+        width: 66%;
+        height: 100%;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    footer {
+        width: 100%;
+        background-color: #3d0a49;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.2em;
+        font-weight: bold;
+        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);
+    }
 }
-section {
-    width: 80%;
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-h1{
-    line-height: 55px;
-    font-size: 2em;
-    margin: 20px;
-}
-p {
-    margin: 20px 10px;
-}
-.relogio {
-    font-size: 3em;
-}
-input {
-    margin: 5px;
-    padding: 5px;
-}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;AAChB;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;AACA;IACI,mCAAmC;IACnC,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;IACb,cAAc;IACd,4DAA4D;AAChE;AACA;IACI,aAAa;AACjB;AACA;IACI,UAAU;IACV,2BAA2B;IAC3B,mBAAmB;AACvB;AACA;IACI,iBAAiB;IACjB,cAAc;IACd,YAAY;AAChB;AACA;IACI,iBAAiB;AACrB;AACA;IACI,cAAc;AAClB;AACA;IACI,WAAW;IACX,YAAY;AAChB","sourcesContent":["@charset \"UTF-8\";\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\nbody{\r\n    background-color: rgb(72, 107, 138);\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n::-webkit-scrollbar {\r\n    display: none;\r\n}\r\nsection {\r\n    width: 80%;\r\n    background-color: aliceblue;\r\n    border-radius: 15px;\r\n}\r\nh1{\r\n    line-height: 55px;\r\n    font-size: 2em;\r\n    margin: 20px;\r\n}\r\np {\r\n    margin: 20px 10px;\r\n}\r\n.relogio {\r\n    font-size: 3em;\r\n}\r\ninput {\r\n    margin: 5px;\r\n    padding: 5px;\r\n}"],"sourceRoot":""}]);
+
+@media screen and (orientation:portrait) {
+    
+}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;AAChB;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,cAAc;IACd,aAAa;AACjB;;AAEA;IACI,yBAAyB;IACzB,aAAa;IACb,cAAc;IACd,4DAA4D;AAChE;AACA;;IAEI;QACI,YAAY;QACZ,WAAW;QACX,aAAa;QACb,8BAA8B;IAClC;IACA;QACI,UAAU;QACV,YAAY;QACZ,aAAa;QACb,sBAAsB;QACtB,uBAAuB;QACvB,mBAAmB;QACnB,YAAY;;QAEZ;YACI,gBAAgB;YAChB,cAAc;;QAElB;QACA;YACI,iBAAiB;QACrB;QACA;YACI,yBAAyB;YACzB,oBAAoB;YACpB,cAAc;YACd,iBAAiB;YACjB,kBAAkB;YAClB,YAAY;YACZ,kBAAkB;YAClB,iDAAiD;YACjD,eAAe;YACf,gBAAgB;YAChB;gBACI,8BAA8B;gBAC9B,WAAW;YACf;QACJ;IACJ;;IAEA;QACI,uGAA0F;QAC1F,sBAAsB;QACtB,2BAA2B;QAC3B,UAAU;QACV,YAAY;IAChB;IACA;QACI,aAAa;IACjB;;;IAGA;QACI,WAAW;QACX,yBAAyB;QACzB,YAAY;QACZ,kBAAkB;QAClB,eAAe;QACf,gBAAgB;QAChB,iBAAiB;QACjB,kDAAkD;IACtD;AACJ;;AAEA;;AAEA","sourcesContent":["@charset \"UTF-8\";\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000; \r\n}\r\n\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n@media screen and (orientation:landscape) {\r\n\r\n    section {\r\n        height: 100%;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n    }\r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3.5em;\r\n            margin: 20px 0;\r\n            \r\n        }\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n        & .btn-ver {\r\n            background-color: #3d0a49;\r\n            color: var(--branco);\r\n            font-size: 2em;\r\n            font-weight: bold;\r\n            padding: 30px 80px;\r\n            border: none;\r\n            border-radius: 2px;\r\n            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n            cursor: pointer;\r\n            transition: 0.3s;\r\n            &:hover {\r\n                background-color: var(--fraca);\r\n                color: #000;\r\n            }\r\n        }\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    footer {\r\n        width: 100%;\r\n        background-color: #3d0a49;\r\n        color: white;\r\n        text-align: center;\r\n        padding: 10px 0;\r\n        font-size: 1.2em;\r\n        font-weight: bold;\r\n        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n    }\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    \r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23096,6 +23163,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -24196,6 +24299,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -24247,6 +24353,55 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

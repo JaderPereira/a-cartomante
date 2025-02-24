@@ -4,35 +4,86 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(72, 107, 138);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+:root {
+    --forte: #67127C;
+    --fraca: #DFA400;
+    --branco: #fff;
+    --preto: #000; 
+}
+
+body {
+    background-color: #220529;
     height: 100vh;
     overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-::-webkit-scrollbar {
-    display: none;
+@media screen and (orientation:landscape) {
+
+    section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        & .logo {
+            font-size: 3.5em;
+            margin: 20px 0;
+            
+        }
+        & .data {
+            font-weight: bold;
+        }
+        & .btn-ver {
+            background-color: #3d0a49;
+            color: var(--branco);
+            font-size: 2em;
+            font-weight: bold;
+            padding: 30px 80px;
+            border: none;
+            border-radius: 2px;
+            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                background-color: var(--fraca);
+                color: #000;
+            }
+        }
+    }
+
+    .img-capa {
+        background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 66%;
+        height: 100%;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    footer {
+        width: 100%;
+        background-color: #3d0a49;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.2em;
+        font-weight: bold;
+        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);
+    }
 }
-section {
-    width: 80%;
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-h1{
-    line-height: 55px;
-    font-size: 2em;
-    margin: 20px;
-}
-p {
-    margin: 20px 10px;
-}
-.relogio {
-    font-size: 3em;
-}
-input {
-    margin: 5px;
-    padding: 5px;
+
+@media screen and (orientation:portrait) {
+    
 }
