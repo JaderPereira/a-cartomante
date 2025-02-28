@@ -10,20 +10,25 @@
     --branco: #fff;
     --preto: #000; 
 }
-
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
 body {
     background-color: #220529;
     height: 100vh;
     overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-snap-type: y mandatory;
 }
 @media screen and (orientation:landscape) {
-
+    
     section {
-        height: 100%;
+        height: 100vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
+        scroll-snap-align: start;
     }
     .info {
         width: 35%;
@@ -61,12 +66,42 @@ body {
     }
 
     .img-capa {
-        background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');
+        background: linear-gradient(to right, #220529 3%, transparent), black;
+        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/
         background-size: cover;
         background-position: center;
         width: 66%;
         height: 100%;
     }
+
+    .trailer {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoTrailer {
+        width: 35%;
+        height: 100%;
+        overflow: hidden;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        & .logo {
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: var(--fraca);
+        }
+        & .sinopse {
+            overflow: auto;
+        }
+
+    }
+
+
     ::-webkit-scrollbar {
         display: none;
     }
