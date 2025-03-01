@@ -22979,7 +22979,7 @@ html {
 }
 body {
     background-color: #220529;
-    height: 100vh;
+    height: 100dvh;
     overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-snap-type: y mandatory;
@@ -23003,7 +23003,7 @@ body {
         color: white;
 
         & .logo {
-            font-size: 3.5em;
+            font-size: 3em;
             margin: 20px 0;
             
         }
@@ -23037,18 +23037,23 @@ body {
         height: 100%;
     }
 
+    .telaTrailer {
+        display: flex;
+        align-items: center;
+    }
     .trailer {
-        width: 65%;
-        height: 100%;
+        width: 75%;
+        height: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 7% 5%;
     }
     .infoTrailer {
         width: 35%;
         height: 100%;
         overflow: hidden;
-        padding: 2%;
+        padding: 2% 3% 2% 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -23060,6 +23065,34 @@ body {
         }
         & .sinopse {
             overflow: auto;
+        }
+
+    }
+
+    .telaPersonagens {
+        display: flex;
+        align-items: center;
+    }
+    .personagens {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 8%;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
+        border-radius: 5px;
+
+        & .personagem {
+            background-color: #dfa40099;
+            width: 23%;
+            height: 96%;
+            border-radius: 7px;
+            padding: 40px;
+        }
+        & .info-personagens {
+            overflow-y: auto;
+            height: 100%;
         }
 
     }
@@ -23084,7 +23117,7 @@ body {
 
 @media screen and (orientation:portrait) {
     
-}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;AAChB;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,cAAc;IACd,aAAa;AACjB;AACA;IACI,6BAA6B;IAC7B,uBAAuB;AAC3B;AACA;IACI,yBAAyB;IACzB,aAAa;IACb,cAAc;IACd,4DAA4D;IAC5D,6BAA6B;AACjC;AACA;;IAEI;QACI,aAAa;QACb,WAAW;QACX,aAAa;QACb,8BAA8B;QAC9B,wBAAwB;IAC5B;IACA;QACI,UAAU;QACV,YAAY;QACZ,aAAa;QACb,sBAAsB;QACtB,uBAAuB;QACvB,mBAAmB;QACnB,YAAY;;QAEZ;YACI,gBAAgB;YAChB,cAAc;;QAElB;QACA;YACI,iBAAiB;QACrB;QACA;YACI,yBAAyB;YACzB,oBAAoB;YACpB,cAAc;YACd,iBAAiB;YACjB,kBAAkB;YAClB,YAAY;YACZ,kBAAkB;YAClB,iDAAiD;YACjD,eAAe;YACf,gBAAgB;YAChB;gBACI,8BAA8B;gBAC9B,WAAW;YACf;QACJ;IACJ;;IAEA;QACI,qEAAqE;QACrE,8FAA8F;QAC9F,sBAAsB;QACtB,2BAA2B;QAC3B,UAAU;QACV,YAAY;IAChB;;IAEA;QACI,UAAU;QACV,YAAY;QACZ,aAAa;QACb,uBAAuB;QACvB,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,YAAY;QACZ,gBAAgB;QAChB,WAAW;QACX,aAAa;QACb,uBAAuB;QACvB,sBAAsB;;QAEtB;YACI,iBAAiB;YACjB,mBAAmB;YACnB,mBAAmB;QACvB;QACA;YACI,cAAc;QAClB;;IAEJ;;;IAGA;QACI,aAAa;IACjB;;;IAGA;QACI,WAAW;QACX,yBAAyB;QACzB,YAAY;QACZ,kBAAkB;QAClB,eAAe;QACf,gBAAgB;QAChB,iBAAiB;QACjB,kDAAkD;IACtD;AACJ;;AAEA;;AAEA","sourcesContent":["@charset \"UTF-8\";\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000; \r\n}\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n    scroll-snap-type: y mandatory;\r\n}\r\n@media screen and (orientation:landscape) {\r\n    \r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3.5em;\r\n            margin: 20px 0;\r\n            \r\n        }\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n        & .btn-ver {\r\n            background-color: #3d0a49;\r\n            color: var(--branco);\r\n            font-size: 2em;\r\n            font-weight: bold;\r\n            padding: 30px 80px;\r\n            border: none;\r\n            border-radius: 2px;\r\n            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n            cursor: pointer;\r\n            transition: 0.3s;\r\n            &:hover {\r\n                background-color: var(--fraca);\r\n                color: #000;\r\n            }\r\n        }\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), black;\r\n        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .trailer {\r\n        width: 65%;\r\n        height: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n    }\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2%;\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        \r\n        & .logo {\r\n            font-weight: bold;\r\n            margin-bottom: 20px;\r\n            color: var(--fraca);\r\n        }\r\n        & .sinopse {\r\n            overflow: auto;\r\n        }\r\n\r\n    }\r\n\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    footer {\r\n        width: 100%;\r\n        background-color: #3d0a49;\r\n        color: white;\r\n        text-align: center;\r\n        padding: 10px 0;\r\n        font-size: 1.2em;\r\n        font-weight: bold;\r\n        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n    }\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    \r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;AAChB;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,cAAc;IACd,aAAa;AACjB;AACA;IACI,6BAA6B;IAC7B,uBAAuB;AAC3B;AACA;IACI,yBAAyB;IACzB,cAAc;IACd,cAAc;IACd,4DAA4D;IAC5D,6BAA6B;AACjC;AACA;;IAEI;QACI,aAAa;QACb,WAAW;QACX,aAAa;QACb,8BAA8B;QAC9B,wBAAwB;IAC5B;IACA;QACI,UAAU;QACV,YAAY;QACZ,aAAa;QACb,sBAAsB;QACtB,uBAAuB;QACvB,mBAAmB;QACnB,YAAY;;QAEZ;YACI,cAAc;YACd,cAAc;;QAElB;QACA;YACI,iBAAiB;QACrB;QACA;YACI,yBAAyB;YACzB,oBAAoB;YACpB,cAAc;YACd,iBAAiB;YACjB,kBAAkB;YAClB,YAAY;YACZ,kBAAkB;YAClB,iDAAiD;YACjD,eAAe;YACf,gBAAgB;YAChB;gBACI,8BAA8B;gBAC9B,WAAW;YACf;QACJ;IACJ;;IAEA;QACI,qEAAqE;QACrE,8FAA8F;QAC9F,sBAAsB;QACtB,2BAA2B;QAC3B,UAAU;QACV,YAAY;IAChB;;IAEA;QACI,aAAa;QACb,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,WAAW;QACX,aAAa;QACb,uBAAuB;QACvB,mBAAmB;QACnB,aAAa;IACjB;IACA;QACI,UAAU;QACV,YAAY;QACZ,gBAAgB;QAChB,mBAAmB;QACnB,aAAa;QACb,uBAAuB;QACvB,sBAAsB;;QAEtB;YACI,iBAAiB;YACjB,mBAAmB;YACnB,mBAAmB;QACvB;QACA;YACI,cAAc;QAClB;;IAEJ;;IAEA;QACI,aAAa;QACb,mBAAmB;IACvB;IACA;QACI,WAAW;QACX,WAAW;QACX,aAAa;QACb,6BAA6B;QAC7B,mBAAmB;QACnB,UAAU;QACV,iDAAiD;QACjD,kBAAkB;;QAElB;YACI,2BAA2B;YAC3B,UAAU;YACV,WAAW;YACX,kBAAkB;YAClB,aAAa;QACjB;QACA;YACI,gBAAgB;YAChB,YAAY;QAChB;;IAEJ;;;IAGA;QACI,aAAa;IACjB;;;IAGA;QACI,WAAW;QACX,yBAAyB;QACzB,YAAY;QACZ,kBAAkB;QAClB,eAAe;QACf,gBAAgB;QAChB,iBAAiB;QACjB,kDAAkD;IACtD;AACJ;;AAEA;;AAEA","sourcesContent":["@charset \"UTF-8\";\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000; \r\n}\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\nbody {\r\n    background-color: #220529;\r\n    height: 100dvh;\r\n    overflow: auto;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n    scroll-snap-type: y mandatory;\r\n}\r\n@media screen and (orientation:landscape) {\r\n    \r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3em;\r\n            margin: 20px 0;\r\n            \r\n        }\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n        & .btn-ver {\r\n            background-color: #3d0a49;\r\n            color: var(--branco);\r\n            font-size: 2em;\r\n            font-weight: bold;\r\n            padding: 30px 80px;\r\n            border: none;\r\n            border-radius: 2px;\r\n            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n            cursor: pointer;\r\n            transition: 0.3s;\r\n            &:hover {\r\n                background-color: var(--fraca);\r\n                color: #000;\r\n            }\r\n        }\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), black;\r\n        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .telaTrailer {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n    .trailer {\r\n        width: 75%;\r\n        height: 70%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin: 7% 5%;\r\n    }\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2% 3% 2% 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        \r\n        & .logo {\r\n            font-weight: bold;\r\n            margin-bottom: 20px;\r\n            color: var(--fraca);\r\n        }\r\n        & .sinopse {\r\n            overflow: auto;\r\n        }\r\n\r\n    }\r\n\r\n    .telaPersonagens {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n    .personagens {\r\n        width: 100%;\r\n        height: 80%;\r\n        display: flex;\r\n        justify-content: space-around;\r\n        align-items: center;\r\n        margin: 8%;\r\n        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n        border-radius: 5px;\r\n\r\n        & .personagem {\r\n            background-color: #dfa40099;\r\n            width: 23%;\r\n            height: 96%;\r\n            border-radius: 7px;\r\n            padding: 40px;\r\n        }\r\n        & .info-personagens {\r\n            overflow-y: auto;\r\n            height: 100%;\r\n        }\r\n\r\n    }\r\n\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    footer {\r\n        width: 100%;\r\n        background-color: #3d0a49;\r\n        color: white;\r\n        text-align: center;\r\n        padding: 10px 0;\r\n        font-size: 1.2em;\r\n        font-weight: bold;\r\n        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n    }\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    \r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
