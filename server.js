@@ -13,6 +13,15 @@ app.set('view engine', 'ejs')
 
 app.use(routes)
 
+const fetch = require("node-fetch");
+
+setInterval(() => {
+  fetch("https://a-cartomante.onrender.com")
+    .then(() => console.log("Ping enviado!"))
+    .catch(err => console.error("Erro ao pingar:", err))
+}, 300000) // A cada 5 minutos
+
+
 app.listen(PORT, () => {
     console.log(`acessar: http://localhost:${PORT}`)
     console.log(`Servidor executando na porta ${PORT}`)
