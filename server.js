@@ -13,7 +13,6 @@ app.set('view engine', 'ejs')
 
 app.use(routes)
 
-const fetch = require("node-fetch")
 
 setInterval(() => {
   fetch("https://a-cartomante.onrender.com")
