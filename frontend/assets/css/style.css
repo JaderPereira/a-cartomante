@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,10 +21,14 @@ html {
 }
 body {
     background-color: #220529;
-    height: 100dvh;
+    height: 100vh;
     overflow: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-snap-type: y mandatory;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1, h2 {
+    font-family: 'Cinzel', serif;
 }
 @media screen and (orientation:landscape) {
     
@@ -48,20 +57,21 @@ body {
             font-weight: bold;
         }
         & .btn-ver {
-            background-color: #3d0a49;
-            color: var(--branco);
-            font-size: 2em;
+            background: linear-gradient(to right, #7b2cbf, #4b0082);
+            color: white;
+            font-size: 1.5em;
             font-weight: bold;
-            padding: 30px 80px;
+            padding: 15px 40px;
             border: none;
-            border-radius: 2px;
-            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
+            border-radius: 5px;
             cursor: pointer;
-            transition: 0.3s;
-            &:hover {
-                background-color: var(--fraca);
-                color: #000;
-            }
+            transition: all 0.3s;
+        }
+        & .btn-ver:hover {
+            background: #dfa400;
+            color: black;
+            box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);
+            transform: scale(1.05);
         }
     }
 
@@ -121,7 +131,7 @@ body {
         border-radius: 5px;
 
         & .personagem {
-            background-color: #dfa40099;
+            background-color: #C29F5A;
             width: 23%;
             height: 96%;
             border-radius: 7px;
