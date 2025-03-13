@@ -54,6 +54,17 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./frontend/assets/img/pexels-eberhardgross-1366919.jpg":
+/*!**************************************************************!*\
+  !*** ./frontend/assets/img/pexels-eberhardgross-1366919.jpg ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "dff710dfc319e18cb289.jpg";
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/a-callable.js":
 /*!******************************************************!*\
   !*** ./node_modules/core-js/internals/a-callable.js ***!
@@ -22956,45 +22967,104 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/pexels-eberhardgross-1366919.jpg */ "./frontend/assets/img/pexels-eberhardgross-1366919.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `@charset "UTF-8";
 
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --forte: #67127C;
     --fraca: #DFA400;
     --branco: #fff;
-    --preto: #000; 
+    --preto: #000;
 }
+
 html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #220529;
     height: 100vh;
     overflow: auto;
     scroll-snap-type: y mandatory;
     font-family: 'Poppins', sans-serif;
-    
+
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: 'Cinzel', serif;
 }
+
+iframe {
+    border-radius: 5px;
+}
+
+.btn-ver {
+    background: linear-gradient(to right, #7b2cbf, #4b0082);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-ver:hover {
+    background: #dfa400;
+    color: black;
+    box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);
+    transform: scale(1.05);
+}
+
+.telaPersonagens {
+    display: flex;
+    align-items: center;
+}
+
+.personagem-camilo {
+    background-color: #3CA138;
+}
+.personagem-vilela {
+    background-color: #710C04;
+}
+.personagem-rita {
+    background-color: #C7B209;
+}
+.personagem-cartomante {
+    background-color: #B2560D;
+}
+
+footer {
+    width: 100%;
+    background-color: #3d0a49;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);
+}
 @media screen and (orientation:landscape) {
-    
+
     section {
         height: 100vh;
         width: 100%;
@@ -23002,6 +23072,7 @@ h1, h2 {
         justify-content: space-between;
         scroll-snap-align: start;
     }
+    
     .info {
         width: 35%;
         height: 100%;
@@ -23014,28 +23085,14 @@ h1, h2 {
         & .logo {
             font-size: 3em;
             margin: 20px 0;
-            
+            color: var(--fraca);
+
         }
+
         & .data {
             font-weight: bold;
         }
-        & .btn-ver {
-            background: linear-gradient(to right, #7b2cbf, #4b0082);
-            color: white;
-            font-size: 1.5em;
-            font-weight: bold;
-            padding: 15px 40px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        & .btn-ver:hover {
-            background: #dfa400;
-            color: black;
-            box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);
-            transform: scale(1.05);
-        }
+
     }
 
     .img-capa {
@@ -23051,14 +23108,31 @@ h1, h2 {
         display: flex;
         align-items: center;
     }
+
     .trailer {
-        width: 75%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column ;
+    }
+    .logoTrailer {
+        font-size: 3em;
+        padding: 3% 5% 0 5%;
+        height: 15%;
+        color: var(--fraca);
+        display: flex;
+        align-items: end;
+    }
+
+    .trailerIframe {
+        width: 90%;
+        height: 85%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 7% 5%;
+        margin: 5% 5% 7% 5%;
     }
+
     .infoTrailer {
         width: 35%;
         height: 100%;
@@ -23067,44 +23141,60 @@ h1, h2 {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
+
         & .logo {
             font-weight: bold;
-            margin-bottom: 20px;
+            margin: 0 0 20px 0;
             color: var(--fraca);
         }
+
         & .sinopse {
             overflow: auto;
         }
 
     }
 
+ 
     .telaPersonagens {
-        display: flex;
-        align-items: center;
-    }
-    .personagens {
         width: 100%;
-        height: 80%;
+        height: 100%;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 8%;
-        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
-        border-radius: 5px;
+        flex-direction: column;
 
-        & .personagem {
-            background-color: #C29F5A;
-            width: 23%;
-            height: 96%;
-            border-radius: 7px;
-            padding: 40px;
-        }
-        & .info-personagens {
-            overflow-y: auto;
-            height: 100%;
+
+
+        & .logoPersonagens {
+            width: 100%;
+            padding: 3% 5% 0 5%;
+            color: var(--fraca);
+            font-size: 3em;
         }
 
+        & .personagens {
+            width: 92%;
+            margin: 4%;
+            display: flex;
+            justify-content: space-between;
+        
+            & h2 {
+                font-size: 2em;
+                margin: 15px 0;
+            }
+            & .personagem {
+                width: 23%;
+                height: 50%;
+                border-radius: 4px;
+                padding: 10px;
+                overflow: scroll;
+
+
+            }
+            & .info-personagens {
+                height: 100%;
+            }
+
+            
+        }
     }
 
 
@@ -23113,21 +23203,92 @@ h1, h2 {
     }
 
 
-    footer {
-        width: 100%;
-        background-color: #3d0a49;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 1.2em;
-        font-weight: bold;
-        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);
-    }
+
 }
 
 @media screen and (orientation:portrait) {
+    section {
+        width: 100%;
+        padding: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
-}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"AAAA,gBAAgB;;;;;AAMhB;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;AACA;IACI,gBAAgB;IAChB,gBAAgB;IAChB,cAAc;IACd,aAAa;AACjB;AACA;IACI,6BAA6B;IAC7B,uBAAuB;AAC3B;AACA;IACI,yBAAyB;IACzB,aAAa;IACb,cAAc;IACd,6BAA6B;IAC7B,kCAAkC;;AAEtC;AACA;IACI,4BAA4B;AAChC;AACA;;IAEI;QACI,aAAa;QACb,WAAW;QACX,aAAa;QACb,8BAA8B;QAC9B,wBAAwB;IAC5B;IACA;QACI,UAAU;QACV,YAAY;QACZ,aAAa;QACb,sBAAsB;QACtB,uBAAuB;QACvB,mBAAmB;QACnB,YAAY;;QAEZ;YACI,cAAc;YACd,cAAc;;QAElB;QACA;YACI,iBAAiB;QACrB;QACA;YACI,uDAAuD;YACvD,YAAY;YACZ,gBAAgB;YAChB,iBAAiB;YACjB,kBAAkB;YAClB,YAAY;YACZ,kBAAkB;YAClB,eAAe;YACf,oBAAoB;QACxB;QACA;YACI,mBAAmB;YACnB,YAAY;YACZ,2CAA2C;YAC3C,sBAAsB;QAC1B;IACJ;;IAEA;QACI,qEAAqE;QACrE,8FAA8F;QAC9F,sBAAsB;QACtB,2BAA2B;QAC3B,UAAU;QACV,YAAY;IAChB;;IAEA;QACI,aAAa;QACb,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,WAAW;QACX,aAAa;QACb,uBAAuB;QACvB,mBAAmB;QACnB,aAAa;IACjB;IACA;QACI,UAAU;QACV,YAAY;QACZ,gBAAgB;QAChB,mBAAmB;QACnB,aAAa;QACb,uBAAuB;QACvB,sBAAsB;;QAEtB;YACI,iBAAiB;YACjB,mBAAmB;YACnB,mBAAmB;QACvB;QACA;YACI,cAAc;QAClB;;IAEJ;;IAEA;QACI,aAAa;QACb,mBAAmB;IACvB;IACA;QACI,WAAW;QACX,WAAW;QACX,aAAa;QACb,6BAA6B;QAC7B,mBAAmB;QACnB,UAAU;QACV,iDAAiD;QACjD,kBAAkB;;QAElB;YACI,yBAAyB;YACzB,UAAU;YACV,WAAW;YACX,kBAAkB;YAClB,aAAa;QACjB;QACA;YACI,gBAAgB;YAChB,YAAY;QAChB;;IAEJ;;;IAGA;QACI,aAAa;IACjB;;;IAGA;QACI,WAAW;QACX,yBAAyB;QACzB,YAAY;QACZ,kBAAkB;QAClB,eAAe;QACf,gBAAgB;QAChB,iBAAiB;QACjB,kDAAkD;IACtD;AACJ;;AAEA;;AAEA","sourcesContent":["@charset \"UTF-8\";\r\n@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap');\r\n\r\n\r\n\r\n\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000; \r\n}\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    scroll-snap-type: y mandatory;\r\n    font-family: 'Poppins', sans-serif;\r\n    \r\n}\r\nh1, h2 {\r\n    font-family: 'Cinzel', serif;\r\n}\r\n@media screen and (orientation:landscape) {\r\n    \r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3em;\r\n            margin: 20px 0;\r\n            \r\n        }\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n        & .btn-ver {\r\n            background: linear-gradient(to right, #7b2cbf, #4b0082);\r\n            color: white;\r\n            font-size: 1.5em;\r\n            font-weight: bold;\r\n            padding: 15px 40px;\r\n            border: none;\r\n            border-radius: 5px;\r\n            cursor: pointer;\r\n            transition: all 0.3s;\r\n        }\r\n        & .btn-ver:hover {\r\n            background: #dfa400;\r\n            color: black;\r\n            box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);\r\n            transform: scale(1.05);\r\n        }\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), black;\r\n        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .telaTrailer {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n    .trailer {\r\n        width: 75%;\r\n        height: 70%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin: 7% 5%;\r\n    }\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2% 3% 2% 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        \r\n        & .logo {\r\n            font-weight: bold;\r\n            margin-bottom: 20px;\r\n            color: var(--fraca);\r\n        }\r\n        & .sinopse {\r\n            overflow: auto;\r\n        }\r\n\r\n    }\r\n\r\n    .telaPersonagens {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n    .personagens {\r\n        width: 100%;\r\n        height: 80%;\r\n        display: flex;\r\n        justify-content: space-around;\r\n        align-items: center;\r\n        margin: 8%;\r\n        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n        border-radius: 5px;\r\n\r\n        & .personagem {\r\n            background-color: #C29F5A;\r\n            width: 23%;\r\n            height: 96%;\r\n            border-radius: 7px;\r\n            padding: 40px;\r\n        }\r\n        & .info-personagens {\r\n            overflow-y: auto;\r\n            height: 100%;\r\n        }\r\n\r\n    }\r\n\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    footer {\r\n        width: 100%;\r\n        background-color: #3d0a49;\r\n        color: white;\r\n        text-align: center;\r\n        padding: 10px 0;\r\n        font-size: 1.2em;\r\n        font-weight: bold;\r\n        box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n    }\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    \r\n}"],"sourceRoot":""}]);
+    .principal {
+        height: 100vh;
+        background: linear-gradient(to top, #220529 25%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .logo {
+        font-size: 2em;
+        color: var(--fraca);
+    }
+    .infoPrincipal {
+        height: 25%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    .btn-ver {
+        margin: 20px 0;
+    }
+
+
+    .telaTrailer {
+        color: white;
+        display: flex;
+    }
+
+    .logoTrailer {
+        margin-top: 30px;
+    }
+    .trailerIframe {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sinopse {
+        overflow: auto;
+        height: 600px;
+    }
+
+
+    .telaPersonagens {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .personagens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
+        border-radius: 5px;
+
+        & .personagem {
+            width: 100%;
+            height: 400px;
+            border-radius: 3px;
+            padding: 30px;
+            margin: 25px 0;
+
+        }
+
+
+        & .info-personagens {
+            overflow-y: auto;
+            height: 100%;
+        }
+
+    }
+}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"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","sourcesContent":["@charset \"UTF-8\";\r\n@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap');\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000;\r\n}\r\n\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\n\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    scroll-snap-type: y mandatory;\r\n    font-family: 'Poppins', sans-serif;\r\n\r\n}\r\n\r\nh1,\r\nh2 {\r\n    font-family: 'Cinzel', serif;\r\n}\r\n\r\niframe {\r\n    border-radius: 5px;\r\n}\r\n\r\n.btn-ver {\r\n    background: linear-gradient(to right, #7b2cbf, #4b0082);\r\n    color: white;\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    padding: 15px 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    transition: all 0.3s;\r\n}\r\n\r\n.btn-ver:hover {\r\n    background: #dfa400;\r\n    color: black;\r\n    box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);\r\n    transform: scale(1.05);\r\n}\r\n\r\n.telaPersonagens {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.personagem-camilo {\r\n    background-color: #3CA138;\r\n}\r\n.personagem-vilela {\r\n    background-color: #710C04;\r\n}\r\n.personagem-rita {\r\n    background-color: #C7B209;\r\n}\r\n.personagem-cartomante {\r\n    background-color: #B2560D;\r\n}\r\n\r\nfooter {\r\n    width: 100%;\r\n    background-color: #3d0a49;\r\n    color: white;\r\n    text-align: center;\r\n    padding: 10px 0;\r\n    font-size: 1.2em;\r\n    font-weight: bold;\r\n    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n}\r\n@media screen and (orientation:landscape) {\r\n\r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    \r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3em;\r\n            margin: 20px 0;\r\n            color: var(--fraca);\r\n\r\n        }\r\n\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), black;\r\n        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .telaTrailer {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n\r\n    .trailer {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column ;\r\n    }\r\n    .logoTrailer {\r\n        font-size: 3em;\r\n        padding: 3% 5% 0 5%;\r\n        height: 15%;\r\n        color: var(--fraca);\r\n        display: flex;\r\n        align-items: end;\r\n    }\r\n\r\n    .trailerIframe {\r\n        width: 90%;\r\n        height: 85%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin: 5% 5% 7% 5%;\r\n    }\r\n\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2% 3% 2% 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n\r\n        & .logo {\r\n            font-weight: bold;\r\n            margin: 0 0 20px 0;\r\n            color: var(--fraca);\r\n        }\r\n\r\n        & .sinopse {\r\n            overflow: auto;\r\n        }\r\n\r\n    }\r\n\r\n \r\n    .telaPersonagens {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n\r\n\r\n\r\n        & .logoPersonagens {\r\n            width: 100%;\r\n            padding: 3% 5% 0 5%;\r\n            color: var(--fraca);\r\n            font-size: 3em;\r\n        }\r\n\r\n        & .personagens {\r\n            width: 92%;\r\n            margin: 4%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n        \r\n            & h2 {\r\n                font-size: 2em;\r\n                margin: 15px 0;\r\n            }\r\n            & .personagem {\r\n                width: 23%;\r\n                height: 50%;\r\n                border-radius: 4px;\r\n                padding: 10px;\r\n                overflow: scroll;\r\n\r\n\r\n            }\r\n            & .info-personagens {\r\n                height: 100%;\r\n            }\r\n\r\n            \r\n        }\r\n    }\r\n\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    section {\r\n        width: 100%;\r\n        padding: 7%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: space-between;\r\n    }\r\n    \r\n    .principal {\r\n        height: 100vh;\r\n        background: linear-gradient(to top, #220529 25%, transparent), url('../img/pexels-eberhardgross-1366919.jpg');\r\n        background-size: cover;\r\n        background-position: center;\r\n        display: flex;\r\n        flex-direction: column-reverse;\r\n        justify-content: space-between;\r\n    }\r\n    .logo {\r\n        font-size: 2em;\r\n        color: var(--fraca);\r\n    }\r\n    .infoPrincipal {\r\n        height: 25%;\r\n        width: 100%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        color: white;\r\n    }\r\n    .btn-ver {\r\n        margin: 20px 0;\r\n    }\r\n\r\n\r\n    .telaTrailer {\r\n        color: white;\r\n        display: flex;\r\n    }\r\n\r\n    .logoTrailer {\r\n        margin-top: 30px;\r\n    }\r\n    .trailerIframe {\r\n        width: 100%;\r\n        margin-bottom: 30px;\r\n    }\r\n    .sinopse {\r\n        overflow: auto;\r\n        height: 600px;\r\n    }\r\n\r\n\r\n    .telaPersonagens {\r\n        flex-direction: column;\r\n        flex-wrap: wrap;\r\n    }\r\n\r\n    .personagens {\r\n        width: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n        border-radius: 5px;\r\n\r\n        & .personagem {\r\n            width: 100%;\r\n            height: 400px;\r\n            border-radius: 3px;\r\n            padding: 30px;\r\n            margin: 25px 0;\r\n\r\n        }\r\n\r\n\r\n        & .info-personagens {\r\n            overflow-y: auto;\r\n            height: 100%;\r\n        }\r\n\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23225,6 +23386,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -24325,6 +24522,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -24376,6 +24576,55 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
