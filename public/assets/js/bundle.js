@@ -54,14 +54,80 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./frontend/assets/img/pexels-eberhardgross-1366919.jpg":
-/*!**************************************************************!*\
-  !*** ./frontend/assets/img/pexels-eberhardgross-1366919.jpg ***!
-  \**************************************************************/
+/***/ "./frontend/assets/img/camilo-perfil.png":
+/*!***********************************************!*\
+  !*** ./frontend/assets/img/camilo-perfil.png ***!
+  \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "dff710dfc319e18cb289.jpg";
+module.exports = __webpack_require__.p + "58cace29469e67df6af6.png";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/cartomante-capa-2.jpg":
+/*!***************************************************!*\
+  !*** ./frontend/assets/img/cartomante-capa-2.jpg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "e4b3e3fb18b12e88d398.jpg";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/cartomante-capa.jpg":
+/*!*************************************************!*\
+  !*** ./frontend/assets/img/cartomante-capa.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "9eea62e541216a909b51.jpg";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/cartomante-perfil.png":
+/*!***************************************************!*\
+  !*** ./frontend/assets/img/cartomante-perfil.png ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "d4e5acedc6643a61ee95.png";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/creditos.jpg":
+/*!******************************************!*\
+  !*** ./frontend/assets/img/creditos.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "2366644d38d3f2372446.jpg";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/rita-perfil.png":
+/*!*********************************************!*\
+  !*** ./frontend/assets/img/rita-perfil.png ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "8e038b96566d8cda85e7.png";
+
+/***/ }),
+
+/***/ "./frontend/assets/img/vilela-perfil.png":
+/*!***********************************************!*\
+  !*** ./frontend/assets/img/vilela-perfil.png ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "d47aa55c7c199c39cd8d.png";
 
 /***/ }),
 
@@ -22973,10 +23039,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/pexels-eberhardgross-1366919.jpg */ "./frontend/assets/img/pexels-eberhardgross-1366919.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/camilo-perfil.png */ "./frontend/assets/img/camilo-perfil.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../img/vilela-perfil.png */ "./frontend/assets/img/vilela-perfil.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../img/rita-perfil.png */ "./frontend/assets/img/rita-perfil.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../img/cartomante-perfil.png */ "./frontend/assets/img/cartomante-perfil.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../img/cartomante-capa.jpg */ "./frontend/assets/img/cartomante-capa.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../img/creditos.jpg */ "./frontend/assets/img/creditos.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../img/cartomante-capa-2.jpg */ "./frontend/assets/img/cartomante-capa-2.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `@charset "UTF-8";
 
@@ -23041,28 +23119,43 @@ iframe {
 }
 
 .personagem-camilo {
-    background-color: #3CA138;
+    background-color: #03A64A;
+    background: radial-gradient(circle at center, #4CAF50 40%, #2E7D32 100%);
 }
 .personagem-vilela {
-    background-color: #710C04;
+    background-color: #bb0325;
+    background: radial-gradient(circle at center, #B71C1C 40%, #92081f 100%);
 }
 .personagem-rita {
-    background-color: #C7B209;
+    background-color: #dc2562;
+    background: radial-gradient(circle at center, #bf1755 30%, #fe3c80 100%);
 }
 .personagem-cartomante {
-    background-color: #B2560D;
+    background-color: #dd6a2d;
+    background: radial-gradient(circle at center, #F39C12 40%, #7D6608 100%);
+}
+.img-camilo {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+    background-position: center;
+    background-size: cover;
+}
+.img-vilela {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+    background-position: center;
+    background-size: cover;
+}
+.img-rita {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+    background-position: center;
+    background-size: cover;
+}
+.img-cartomante {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});
+    background-position: center;
+    background-size: cover;
 }
 
-footer {
-    width: 100%;
-    background-color: #3d0a49;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);
-}
+
 @media screen and (orientation:landscape) {
 
     section {
@@ -23076,6 +23169,8 @@ footer {
     .info {
         width: 35%;
         height: 100%;
+        position: relative;
+        left: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23096,8 +23191,7 @@ footer {
     }
 
     .img-capa {
-        background: linear-gradient(to right, #220529 3%, transparent), black;
-        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/
+        background: linear-gradient(to right, #220529 2%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_4___});
         background-size: cover;
         background-position: center;
         width: 66%;
@@ -23107,6 +23201,8 @@ footer {
     .telaTrailer {
         display: flex;
         align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, #220529 0%, #0A0012 80%);
     }
 
     .trailer {
@@ -23138,8 +23234,9 @@ footer {
         height: 100%;
         overflow: hidden;
         padding: 2% 3% 2% 0;
+        margin-right: 30px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
 
         & .logo {
@@ -23150,6 +23247,7 @@ footer {
 
         & .sinopse {
             overflow: auto;
+            margin-top: 80px;
         }
 
     }
@@ -23160,19 +23258,48 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-
+        justify-content: flex-start;
+        background: linear-gradient(180deg, #0B0B0B 0%, #220529 100%);
 
 
         & .logoPersonagens {
             width: 100%;
+            height: 20%;
             padding: 3% 5% 0 5%;
             color: var(--fraca);
             font-size: 3em;
         }
 
+        & .img-personagens {
+            width: 100%;
+            height: 50%;
+        }
+
+        & .img-camilo {
+            background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+            background-position: center;
+            background-size: cover;
+        }
+        & .img-vilela {
+            background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+            background-position: center;
+            background-size: cover;
+        }
+        & .img-rita {
+            background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+            background-position: center;
+            background-size: cover;
+        }
+        & .img-cartomante {
+            background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});
+            background-position: center;
+            background-size: cover;
+        }
+
         & .personagens {
             width: 92%;
-            margin: 4%;
+            height: 75%;
+            margin: 0% 4%;
             display: flex;
             justify-content: space-between;
         
@@ -23182,21 +23309,64 @@ footer {
             }
             & .personagem {
                 width: 23%;
-                height: 50%;
+                height: 100%;
                 border-radius: 4px;
                 padding: 10px;
                 overflow: scroll;
 
-
             }
             & .info-personagens {
-                height: 100%;
+                height: 60%;
             }
 
             
         }
     }
 
+    .telaCreditos {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imgCreditos {
+        width: 70%;
+        height: 100%;
+        background: linear-gradient(to left, #220529 2%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_5___});
+        background-position: center;
+        background-size: cover;
+    }
+    .creditosContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+
+    }
+
+    .logoCreditos {
+        font-size: 3em;
+        padding: 3% 5% 0 5%;
+        width: 100%;
+        height: 15%;
+        color: var(--fraca);
+        display: flex;
+        align-items: end;
+    }
+
+    .creditos {
+        height: 80%;
+        width: 100%;
+        overflow-y: scroll;
+        color: white;
+
+        & h1 {
+            margin-top: 20px;
+            color: var(--fraca);
+        }
+        & h2 {
+            font-size: 1.4em;
+            margin-top: 3px;
+        }
+    }
 
     ::-webkit-scrollbar {
         display: none;
@@ -23217,9 +23387,10 @@ footer {
     
     .principal {
         height: 100vh;
-        background: linear-gradient(to top, #220529 25%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-        background-size: cover;
-        background-position: center;
+        background: linear-gradient(to top, #220529 25%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_6___});
+        background-size: 120%;
+        background-position: center top;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -23245,6 +23416,8 @@ footer {
     .telaTrailer {
         color: white;
         display: flex;
+        background: linear-gradient(180deg, #220529 0%, #0A0012 80%);
+
     }
 
     .logoTrailer {
@@ -23252,43 +23425,91 @@ footer {
     }
     .trailerIframe {
         width: 100%;
+        height: 250px;
         margin-bottom: 30px;
     }
     .sinopse {
         overflow: auto;
         height: 600px;
+        font-size: 1.3em;
     }
 
 
     .telaPersonagens {
         flex-direction: column;
         flex-wrap: wrap;
+        background: linear-gradient(180deg, #0B0B0B 0%, #220529 100%);
     }
 
     .personagens {
         width: 100%;
         display: flex;
         flex-direction: column;
-        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);
         border-radius: 5px;
 
         & .personagem {
             width: 100%;
-            height: 400px;
+            height: 90vh;
             border-radius: 3px;
             padding: 30px;
             margin: 25px 0;
 
         }
 
+        & h2 {
+            font-size: 2.4em;
+            margin: 20px 0;
+        }
+        & .img-personagens {
+            width: 100%;
+            height: 50%;
+        }
+
 
         & .info-personagens {
             overflow-y: auto;
-            height: 100%;
+            height: 40%;
+            font-size: 1.2em;
         }
 
     }
-}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"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","sourcesContent":["@charset \"UTF-8\";\r\n@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap');\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000;\r\n}\r\n\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\n\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    scroll-snap-type: y mandatory;\r\n    font-family: 'Poppins', sans-serif;\r\n\r\n}\r\n\r\nh1,\r\nh2 {\r\n    font-family: 'Cinzel', serif;\r\n}\r\n\r\niframe {\r\n    border-radius: 5px;\r\n}\r\n\r\n.btn-ver {\r\n    background: linear-gradient(to right, #7b2cbf, #4b0082);\r\n    color: white;\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    padding: 15px 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    transition: all 0.3s;\r\n}\r\n\r\n.btn-ver:hover {\r\n    background: #dfa400;\r\n    color: black;\r\n    box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);\r\n    transform: scale(1.05);\r\n}\r\n\r\n.telaPersonagens {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.personagem-camilo {\r\n    background-color: #3CA138;\r\n}\r\n.personagem-vilela {\r\n    background-color: #710C04;\r\n}\r\n.personagem-rita {\r\n    background-color: #C7B209;\r\n}\r\n.personagem-cartomante {\r\n    background-color: #B2560D;\r\n}\r\n\r\nfooter {\r\n    width: 100%;\r\n    background-color: #3d0a49;\r\n    color: white;\r\n    text-align: center;\r\n    padding: 10px 0;\r\n    font-size: 1.2em;\r\n    font-weight: bold;\r\n    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.226);\r\n}\r\n@media screen and (orientation:landscape) {\r\n\r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    \r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3em;\r\n            margin: 20px 0;\r\n            color: var(--fraca);\r\n\r\n        }\r\n\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 3%, transparent), black;\r\n        /*background: linear-gradient(to right, #220529 3%, transparent), url('../img/img-capa.jpg');*/\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .telaTrailer {\r\n        display: flex;\r\n        align-items: center;\r\n    }\r\n\r\n    .trailer {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column ;\r\n    }\r\n    .logoTrailer {\r\n        font-size: 3em;\r\n        padding: 3% 5% 0 5%;\r\n        height: 15%;\r\n        color: var(--fraca);\r\n        display: flex;\r\n        align-items: end;\r\n    }\r\n\r\n    .trailerIframe {\r\n        width: 90%;\r\n        height: 85%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin: 5% 5% 7% 5%;\r\n    }\r\n\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2% 3% 2% 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n\r\n        & .logo {\r\n            font-weight: bold;\r\n            margin: 0 0 20px 0;\r\n            color: var(--fraca);\r\n        }\r\n\r\n        & .sinopse {\r\n            overflow: auto;\r\n        }\r\n\r\n    }\r\n\r\n \r\n    .telaPersonagens {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n\r\n\r\n\r\n        & .logoPersonagens {\r\n            width: 100%;\r\n            padding: 3% 5% 0 5%;\r\n            color: var(--fraca);\r\n            font-size: 3em;\r\n        }\r\n\r\n        & .personagens {\r\n            width: 92%;\r\n            margin: 4%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n        \r\n            & h2 {\r\n                font-size: 2em;\r\n                margin: 15px 0;\r\n            }\r\n            & .personagem {\r\n                width: 23%;\r\n                height: 50%;\r\n                border-radius: 4px;\r\n                padding: 10px;\r\n                overflow: scroll;\r\n\r\n\r\n            }\r\n            & .info-personagens {\r\n                height: 100%;\r\n            }\r\n\r\n            \r\n        }\r\n    }\r\n\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    section {\r\n        width: 100%;\r\n        padding: 7%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: space-between;\r\n    }\r\n    \r\n    .principal {\r\n        height: 100vh;\r\n        background: linear-gradient(to top, #220529 25%, transparent), url('../img/pexels-eberhardgross-1366919.jpg');\r\n        background-size: cover;\r\n        background-position: center;\r\n        display: flex;\r\n        flex-direction: column-reverse;\r\n        justify-content: space-between;\r\n    }\r\n    .logo {\r\n        font-size: 2em;\r\n        color: var(--fraca);\r\n    }\r\n    .infoPrincipal {\r\n        height: 25%;\r\n        width: 100%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        color: white;\r\n    }\r\n    .btn-ver {\r\n        margin: 20px 0;\r\n    }\r\n\r\n\r\n    .telaTrailer {\r\n        color: white;\r\n        display: flex;\r\n    }\r\n\r\n    .logoTrailer {\r\n        margin-top: 30px;\r\n    }\r\n    .trailerIframe {\r\n        width: 100%;\r\n        margin-bottom: 30px;\r\n    }\r\n    .sinopse {\r\n        overflow: auto;\r\n        height: 600px;\r\n    }\r\n\r\n\r\n    .telaPersonagens {\r\n        flex-direction: column;\r\n        flex-wrap: wrap;\r\n    }\r\n\r\n    .personagens {\r\n        width: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.226);\r\n        border-radius: 5px;\r\n\r\n        & .personagem {\r\n            width: 100%;\r\n            height: 400px;\r\n            border-radius: 3px;\r\n            padding: 30px;\r\n            margin: 25px 0;\r\n\r\n        }\r\n\r\n\r\n        & .info-personagens {\r\n            overflow-y: auto;\r\n            height: 100%;\r\n        }\r\n\r\n    }\r\n}"],"sourceRoot":""}]);
+
+    .logoCreditos {
+        font-size: 3em;
+        padding: 0% 5% 0 5%;
+        width: 100%;
+        height: 15%;
+        color: var(--fraca);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .creditos {
+        height: 80%;
+        width: 100%;
+        overflow-y: scroll;
+        color: white;
+
+        & h1 {
+            margin-top: 20px;
+            color: var(--fraca);
+            font-size: 1.8em;
+        }
+        & h2 {
+            font-size: 1.4em;
+            margin-top: 3px;
+        }
+    }
+    .imgPortrait {
+        background:  linear-gradient(to bottom, #220529 2%, transparent), url(${___CSS_LOADER_URL_REPLACEMENT_5___});
+        background-size: cover;
+        background-position: center;
+        width: 115%;
+        margin: -6%;
+        height: 50vh;
+    }
+}`, "",{"version":3,"sources":["webpack://./frontend/assets/css/style.css"],"names":[],"mappings":"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","sourcesContent":["@charset \"UTF-8\";\r\n@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap');\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root {\r\n    --forte: #67127C;\r\n    --fraca: #DFA400;\r\n    --branco: #fff;\r\n    --preto: #000;\r\n}\r\n\r\nhtml {\r\n    scroll-snap-type: y mandatory;\r\n    scroll-behavior: smooth;\r\n}\r\n\r\nbody {\r\n    background-color: #220529;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    scroll-snap-type: y mandatory;\r\n    font-family: 'Poppins', sans-serif;\r\n\r\n}\r\n\r\nh1,\r\nh2 {\r\n    font-family: 'Cinzel', serif;\r\n}\r\n\r\niframe {\r\n    border-radius: 5px;\r\n}\r\n\r\n.btn-ver {\r\n    background: linear-gradient(to right, #7b2cbf, #4b0082);\r\n    color: white;\r\n    font-size: 1.5em;\r\n    font-weight: bold;\r\n    padding: 15px 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    transition: all 0.3s;\r\n}\r\n\r\n.btn-ver:hover {\r\n    background: #dfa400;\r\n    color: black;\r\n    box-shadow: 0 0 15px rgba(223, 164, 0, 0.6);\r\n    transform: scale(1.05);\r\n}\r\n\r\n.telaPersonagens {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.personagem-camilo {\r\n    background-color: #03A64A;\r\n    background: radial-gradient(circle at center, #4CAF50 40%, #2E7D32 100%);\r\n}\r\n.personagem-vilela {\r\n    background-color: #bb0325;\r\n    background: radial-gradient(circle at center, #B71C1C 40%, #92081f 100%);\r\n}\r\n.personagem-rita {\r\n    background-color: #dc2562;\r\n    background: radial-gradient(circle at center, #bf1755 30%, #fe3c80 100%);\r\n}\r\n.personagem-cartomante {\r\n    background-color: #dd6a2d;\r\n    background: radial-gradient(circle at center, #F39C12 40%, #7D6608 100%);\r\n}\r\n.img-camilo {\r\n    background-image: url('../img/camilo-perfil.png');\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.img-vilela {\r\n    background-image: url('../img/vilela-perfil.png');\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.img-rita {\r\n    background-image: url('../img/rita-perfil.png');\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.img-cartomante {\r\n    background-image: url('../img/cartomante-perfil.png');\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n\r\n@media screen and (orientation:landscape) {\r\n\r\n    section {\r\n        height: 100vh;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        scroll-snap-align: start;\r\n    }\r\n    \r\n    .info {\r\n        width: 35%;\r\n        height: 100%;\r\n        position: relative;\r\n        left: 40px;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        color: white;\r\n\r\n        & .logo {\r\n            font-size: 3em;\r\n            margin: 20px 0;\r\n            color: var(--fraca);\r\n\r\n        }\r\n\r\n        & .data {\r\n            font-weight: bold;\r\n        }\r\n\r\n    }\r\n\r\n    .img-capa {\r\n        background: linear-gradient(to right, #220529 2%, transparent), url('../img/cartomante-capa.jpg');\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 66%;\r\n        height: 100%;\r\n    }\r\n\r\n    .telaTrailer {\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        background: linear-gradient(180deg, #220529 0%, #0A0012 80%);\r\n    }\r\n\r\n    .trailer {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column ;\r\n    }\r\n    .logoTrailer {\r\n        font-size: 3em;\r\n        padding: 3% 5% 0 5%;\r\n        height: 15%;\r\n        color: var(--fraca);\r\n        display: flex;\r\n        align-items: end;\r\n    }\r\n\r\n    .trailerIframe {\r\n        width: 90%;\r\n        height: 85%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin: 5% 5% 7% 5%;\r\n    }\r\n\r\n    .infoTrailer {\r\n        width: 35%;\r\n        height: 100%;\r\n        overflow: hidden;\r\n        padding: 2% 3% 2% 0;\r\n        margin-right: 30px;\r\n        display: flex;\r\n        justify-content: flex-start;\r\n        flex-direction: column;\r\n\r\n        & .logo {\r\n            font-weight: bold;\r\n            margin: 0 0 20px 0;\r\n            color: var(--fraca);\r\n        }\r\n\r\n        & .sinopse {\r\n            overflow: auto;\r\n            margin-top: 80px;\r\n        }\r\n\r\n    }\r\n\r\n \r\n    .telaPersonagens {\r\n        width: 100%;\r\n        height: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: flex-start;\r\n        background: linear-gradient(180deg, #0B0B0B 0%, #220529 100%);\r\n\r\n\r\n        & .logoPersonagens {\r\n            width: 100%;\r\n            height: 20%;\r\n            padding: 3% 5% 0 5%;\r\n            color: var(--fraca);\r\n            font-size: 3em;\r\n        }\r\n\r\n        & .img-personagens {\r\n            width: 100%;\r\n            height: 50%;\r\n        }\r\n\r\n        & .img-camilo {\r\n            background-image: url('../img/camilo-perfil.png');\r\n            background-position: center;\r\n            background-size: cover;\r\n        }\r\n        & .img-vilela {\r\n            background-image: url('../img/vilela-perfil.png');\r\n            background-position: center;\r\n            background-size: cover;\r\n        }\r\n        & .img-rita {\r\n            background-image: url('../img/rita-perfil.png');\r\n            background-position: center;\r\n            background-size: cover;\r\n        }\r\n        & .img-cartomante {\r\n            background-image: url('../img/cartomante-perfil.png');\r\n            background-position: center;\r\n            background-size: cover;\r\n        }\r\n\r\n        & .personagens {\r\n            width: 92%;\r\n            height: 75%;\r\n            margin: 0% 4%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n        \r\n            & h2 {\r\n                font-size: 2em;\r\n                margin: 15px 0;\r\n            }\r\n            & .personagem {\r\n                width: 23%;\r\n                height: 100%;\r\n                border-radius: 4px;\r\n                padding: 10px;\r\n                overflow: scroll;\r\n\r\n            }\r\n            & .info-personagens {\r\n                height: 60%;\r\n            }\r\n\r\n            \r\n        }\r\n    }\r\n\r\n    .telaCreditos {\r\n        display: flex;\r\n        justify-content: flex-start;\r\n    }\r\n\r\n    .imgCreditos {\r\n        width: 70%;\r\n        height: 100%;\r\n        background: linear-gradient(to left, #220529 2%, transparent), url('../img/creditos.jpg');\r\n        background-position: center;\r\n        background-size: cover;\r\n    }\r\n    .creditosContainer {\r\n        display: flex;\r\n        flex-direction: column;\r\n        padding: 2%;\r\n\r\n    }\r\n\r\n    .logoCreditos {\r\n        font-size: 3em;\r\n        padding: 3% 5% 0 5%;\r\n        width: 100%;\r\n        height: 15%;\r\n        color: var(--fraca);\r\n        display: flex;\r\n        align-items: end;\r\n    }\r\n\r\n    .creditos {\r\n        height: 80%;\r\n        width: 100%;\r\n        overflow-y: scroll;\r\n        color: white;\r\n\r\n        & h1 {\r\n            margin-top: 20px;\r\n            color: var(--fraca);\r\n        }\r\n        & h2 {\r\n            font-size: 1.4em;\r\n            margin-top: 3px;\r\n        }\r\n    }\r\n\r\n    ::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n\r\n}\r\n\r\n@media screen and (orientation:portrait) {\r\n    section {\r\n        width: 100%;\r\n        padding: 7%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: space-between;\r\n    }\r\n    \r\n    .principal {\r\n        height: 100vh;\r\n        background: linear-gradient(to top, #220529 25%, transparent), url('../img/cartomante-capa-2.jpg');\r\n        background-size: 120%;\r\n        background-position: center top;\r\n        background-repeat: no-repeat;\r\n        display: flex;\r\n        flex-direction: column-reverse;\r\n        justify-content: space-between;\r\n    }\r\n    .logo {\r\n        font-size: 2em;\r\n        color: var(--fraca);\r\n    }\r\n    .infoPrincipal {\r\n        height: 25%;\r\n        width: 100%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n        color: white;\r\n    }\r\n    .btn-ver {\r\n        margin: 20px 0;\r\n    }\r\n\r\n\r\n    .telaTrailer {\r\n        color: white;\r\n        display: flex;\r\n        background: linear-gradient(180deg, #220529 0%, #0A0012 80%);\r\n\r\n    }\r\n\r\n    .logoTrailer {\r\n        margin-top: 30px;\r\n    }\r\n    .trailerIframe {\r\n        width: 100%;\r\n        height: 250px;\r\n        margin-bottom: 30px;\r\n    }\r\n    .sinopse {\r\n        overflow: auto;\r\n        height: 600px;\r\n        font-size: 1.3em;\r\n    }\r\n\r\n\r\n    .telaPersonagens {\r\n        flex-direction: column;\r\n        flex-wrap: wrap;\r\n        background: linear-gradient(180deg, #0B0B0B 0%, #220529 100%);\r\n    }\r\n\r\n    .personagens {\r\n        width: 100%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        border-radius: 5px;\r\n\r\n        & .personagem {\r\n            width: 100%;\r\n            height: 90vh;\r\n            border-radius: 3px;\r\n            padding: 30px;\r\n            margin: 25px 0;\r\n\r\n        }\r\n\r\n        & h2 {\r\n            font-size: 2.4em;\r\n            margin: 20px 0;\r\n        }\r\n        & .img-personagens {\r\n            width: 100%;\r\n            height: 50%;\r\n        }\r\n\r\n\r\n        & .info-personagens {\r\n            overflow-y: auto;\r\n            height: 40%;\r\n            font-size: 1.2em;\r\n        }\r\n\r\n    }\r\n\r\n    .logoCreditos {\r\n        font-size: 3em;\r\n        padding: 0% 5% 0 5%;\r\n        width: 100%;\r\n        height: 15%;\r\n        color: var(--fraca);\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .creditos {\r\n        height: 80%;\r\n        width: 100%;\r\n        overflow-y: scroll;\r\n        color: white;\r\n\r\n        & h1 {\r\n            margin-top: 20px;\r\n            color: var(--fraca);\r\n            font-size: 1.8em;\r\n        }\r\n        & h2 {\r\n            font-size: 1.4em;\r\n            margin-top: 3px;\r\n        }\r\n    }\r\n    .imgPortrait {\r\n        background:  linear-gradient(to bottom, #220529 2%, transparent), url('../img/creditos.jpg');\r\n        background-size: cover;\r\n        background-position: center;\r\n        width: 115%;\r\n        margin: -6%;\r\n        height: 50vh;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

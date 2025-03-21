@@ -6,4 +6,5 @@ const home = require('./src/controllers/home')
 route.get('/', home.paginaInicial)
 
 
+
 module.exports = route
