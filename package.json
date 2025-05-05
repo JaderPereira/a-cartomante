@@ -10,7 +10,7 @@
     "dev": "webpack -w",
     "biuld": "webpack --mode production"
   },
-  "author": "jader Pereira",
+  "author": "Jader Pereira",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.40.0",
